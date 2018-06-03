@@ -5,10 +5,15 @@ These notebooks are a Python implementation of matlab demo code of the course Mo
 Before you start notebook it is recommended to build environment using conda
 
 conda create -n <name> python=2.7
+
 source activate <name>
+
 pip install fix-yahoo-finance
+
 cd <directory_where_read README.md>
+
 conda install --yes --file requirements.txt
+
 
 
 ##### Links to notebooks
