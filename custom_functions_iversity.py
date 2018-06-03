@@ -15,7 +15,7 @@ def graphicalComparisonPdf(X, modelPdf, scale = True, xMin = None, xMax = None, 
     xPlot = np.linspace(xMin, xMax, nPlot)
     yPlot = modelPdf(xPlot)
     if nBins is None:
-		nBins = np.min([np.sqrt(X.size), 40])  
+		nBins = np.min([int(round(np.sqrt(X.size))), 40])  
     widthHistogram          = np.max(_X)- np.min(_X)
     averageHeightHistogram  = _X.size/nBins
     areaHistogram           = widthHistogram*averageHeightHistogram

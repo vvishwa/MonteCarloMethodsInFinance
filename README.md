@@ -2,6 +2,13 @@
 
 These notebooks are a Python implementation of matlab demo code of the course Monte Carlo Methods in Finance provided through the platform [iversity.org](iversity.org). All credit for the original code goes to Prof. Dr. Alberto Suárez and his team behind this course. I merely translated the code to Python, sometimes expanding on the material and adding my own interpretation of the material. 
 
+Before you start notebook it is recommended to build environment using conda
+
+conda create -n <name> python=2.7
+source activate <name>
+pip install fix-yahoo-finance
+cd <directory_where_read README.md>
+conda install --yes --file requirements.txt
 
 
 ##### Links to notebooks
